@@ -31,7 +31,7 @@ var styles2 = [
 ].join(';');
 
 function handleTickInit(tick) {
-    var counter = Tick.count.down('2021-09-09T07:31:00+05:30');
+    var counter = Tick.count.down('2021-09-19T18:00:00+05:30');
 
     counter.onupdate = function(value) {
       tick.value = value;
